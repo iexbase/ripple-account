@@ -1,12 +1,31 @@
 {
   "name": "iex-xrp-account",
   "version": "1.0.0",
-  "private": true,
   "scripts": {
     "start": "node ./index.js"
   },
   "dependencies": {
-    "ripple-lib": "^1.2.3"
+    "express": "~4.16.0",
+    "ripple-lib": "^1.2.3",
+    "twig": "^1.13.3"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "description": "Create Ripple account",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iexbase/ripple-account.git"
+  },
+  "keywords": [
+    "ripple",
+    "iexbase",
+    "xrp",
+    "generatoraccount"
+  ],
+  "author": "Shamsudin Serderov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iexbase/ripple-account/issues"
+  },
+  "homepage": "https://github.com/iexbase/ripple-account#readme"
 }
